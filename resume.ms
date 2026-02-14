@@ -1,6 +1,4 @@
-\" Inspired by https://resumeworded.com/big-data-resume-examples
-\" Last access: 2025-02-13
-\" metadata
+.\" metadata
 .
 .ds AUTHOR Cleiton Loiola
 .ds TITLE Tech\\ Lead "Senior Software Engineer
@@ -11,10 +9,8 @@
 .ds SOCIAL_HANDLE klaygomes
 .ds LOCATION Stockholmn, SE
 .
+.\" configure the document based on its output medium
 .setup
-.hy 0 \" disable hyphenation
-.fam H \" use Helvetica font family
-.ds FAM H \"Helvetica\"
 .
 .heading "\*[AUTHOR]" \*[TITLE]
 .contact "\*[LOCATION]" ".github \*[SOCIAL_HANDLE]" ".linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
@@ -124,3 +120,4 @@ within the JavaScript landscape to drive innovation.
 .section HONORS-AWARDS
 .
 .skill \fBAwarded Winner of Hackathon Viva Real 2015\fR, a real estate technology hackathon in Brazil promoted by Viva Real, a leading online real estate marketplace. 
+.

@@ -48,16 +48,25 @@ sudo pacman -S groff
 To compile the resume and generate a PDF, run:
 
 ```
-make
+make pdf
+```
+
+## Generating the terminal version
+
+To compile the resume and generate a txt, run:
+
+```
+make txt
+cat cleiton-loiola | less -R
 ```
 
 You can use auto reload by typing
 
 ```
-./watch.sh
+./watch
 ```
 
-This will produce `cleiton-loiola.pdf` in the current directory.
+This will produce `cleiton-loiola.pdf` and `cleiton-loiola` files in the current directory.
 
 ## License
 

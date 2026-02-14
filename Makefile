@@ -25,5 +25,8 @@ $(OUTPUT): resume.ms as.tmac
 		-P-f		\
 		resume.ms > $(OUTPUT)
 
+pdf: $(OUTPUT).pdf
+txt: $(OUTPUT)
+
 clean:
 	rm -f $(OUTPUT) $(OUTPUT).pdf
