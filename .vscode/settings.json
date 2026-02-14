@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.ms": "troff",
+    "*.tmac": "troff"
+  }
+}

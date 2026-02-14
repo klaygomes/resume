@@ -1,0 +1,96 @@
+.defcolor highlight rgb #6c63fe
+.defcolor text rgb #2b2950
+.defcolor subtle rgb #52575c
+.
+.de heading
+.ps \\n[sTitle]
+.R
+\m[highlight]\\$1
+.br
+.ps \\n[sText]
+.R
+.sp 0.2
+.nr num \\n[.$] \" when \i tried to use this with .shift file got corrupted for some reason.
+.shift
+.  while (\\n[num] > 0) \{\
+\\m[subtle]\\$1
+.   if (\\n[num] > 2) \{\
+|
+.   \}
+.   shift
+.    nr num -1
+.  \}
+.
+\m[text]
+..
+.
+.de email
+.url \\$1 mailto:\\$1
+..
+.
+.de github
+.url "Github: \\$1" https://github.com/\\$1 
+..
+.
+.de linkedin
+.url "LinkedIn: \\$1" https://www.linkedin.com/in/\\$1
+..
+.de subtle
+\m[subtle]\\$1\m[text]
+..
+.
+.de contact
+.sp -\\n[.$]
+.DS R
+.ps \\n[sDetails]
+\m[subtle]
+.  while (\\n[.$] > 0) \{\
+\\.sp -0.2
+\\$1
+.   shift
+.  \}
+\m[text]
+.ps \\n[sText]
+.sp 1
+.DE
+..
+.de coverstart
+.sp 4
+.hy 0
+.ll -2
+.in 2
+.ti 4
+\m[subtle]
+..
+.de coverend
+.in 0
+.ll
+.hy
+\m[text]
+..
+.
+.de section
+.LP
+.B
+\s(\\n[sSection]\m[text]\\$*
+.sp -.5
+\l'\n(.lu+1'\m[text]
+.sp 0
+.R
+..
+.
+.de company
+.sp 1
+\m[highlight]\fB\s(\\n[sHighlight]\\$1\fR \m[subtle]\fI\s(\\n[sSection]\\$2\m[text] 
+.DS R 
+.sp -2
+\fB\s(\\n[sSection]\\$3
+.DE
+..
+.
+.de skill
+.IP "  \m[highlight]\(bu" 3
+\s(\\n[sSection]\\$*
+.IP "" 0
+..
+.
