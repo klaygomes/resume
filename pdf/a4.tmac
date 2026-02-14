@@ -1,4 +1,4 @@
-\" Page Size: 8.27x11.69in ( 21x29.71 cm ) A4, portrait
+.\" Page Size: 8.27x11.69in ( 21x29.71 cm ) A4, portrait
 .nr sTitle 22 \" font size for the heading
 .nr sText 12  \" font size for the body text
 .nr sHighlight 13 \" font size for the heading
@@ -6,7 +6,13 @@
 .nr sDetails 8 \" font size for the details (email, github, linkedin)
 .nr line 17c \" line length
 .de setup
-\# for the first page
+.\" metadata
+.pdfview /PageMode /UseOutlines
+.pdfinfo /Title     Cleiton Loiola - Tech Lead, Software Engineer
+.pdfinfo /Author    Cleiton Loiola
+.pdfinfo /Subject   Resume of Cleiton Loiola
+.pdfinfo /Keywords  Tech Lead, Software Engineer, JavaScript, Node.js, React, Next.js, TypeScript, Tailwind CSS, Ruby, PostgreSQL, Redis, AWS, Cloudflare, Angular, Azure DevOps, Docker, OpenShift, Kubernetes
+.\" for the first page
 .nr PS 10
 \c
 .sp |2cm    \" Top Margin
@@ -15,7 +21,7 @@
 .ls 1.5     \" line spacing
 .EH ''''    \" even header
 .OH ''''    \" odd header
-\# following pages
+.\" following pages
 .nr PO 2c
 .nr LL 17c
 .nr LS 1.5
