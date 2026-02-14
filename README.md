@@ -51,10 +51,10 @@ To compile the resume and generate a PDF, run:
 make
 ```
 
-Or, manually:
+You can use auto reload by typing
 
 ```
-groff -ms -T pdf cleiton-loiola.ms > cleiton-loiola.pdf
+./watch.sh
 ```
 
 This will produce `cleiton-loiola.pdf` in the current directory.

@@ -11,7 +11,7 @@
 .ds FAM H \"Helvetica\"
 .
 .heading "Cleiton Loiola" "Tech Lead" "Software Engineer"
-.contact "\*[LOCATION]" ".github \*[SOCIAL_HANDLE]" ".linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]"
+.contact "\*[LOCATION]" ".github \*[SOCIAL_HANDLE]" ".linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
 .
 .coverstart
 I am a technology leader with
@@ -131,7 +131,7 @@ within the JavaScript landscape to drive innovation.
 .section HONORS-AWARDS
 .
 .IP "  \(bu" 3
-\s(\n[FSB]Winner of
+\s(\n[sSection]Winner of
 .url "hackathon viva real 2015," https://medium.com/tech-grupozap/diario-dos-ganhadores-da-hackathon-da-vivareal-hot-leads-f17590ea03e9
 a real estate technology hackathon in Brazil promoted by Viva Real, a leading online real estate marketplace.
 .

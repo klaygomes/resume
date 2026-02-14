@@ -1,7 +1,7 @@
 .PHONY: clean build
 
 cleiton-loiola.pdf: resume.ms res.tmac pdf/a4.tmac
-	groff 			\
+	@groff 			\
 		-Kutf8 		\
 		-ms 		\
 		-M ./pdf 	\
