@@ -1,5 +1,11 @@
 \" Inspired by https://resumeworded.com/big-data-resume-examples
 \" Last access: 2025-02-13
+\" metadata
+.
+.ds AUTHOR Cleiton Loiola
+.ds TITLE Tech\\ Lead "Senior Software Engineer
+.ds KEYWORDS Tech Lead, Senior Software Engineer, JavaScript, Node.js, React, Next.js, TypeScript, Tailwind CSS, Ruby, PostgreSQL, Redis, AWS, Cloudflare, Angular, Azure DevOps, Docker, OpenShift, Kubernetes
+.ds SUBJECT Resume of Cleiton Loiola
 .ds SITE cleiton.se
 .ds EMAIL email@cleiton.dev
 .ds SOCIAL_HANDLE klaygomes
@@ -10,26 +16,12 @@
 .fam H \" use Helvetica font family
 .ds FAM H \"Helvetica\"
 .
-.heading "Cleiton Loiola" "Tech Lead" "Software Engineer"
+.heading "\*[AUTHOR]" \*[TITLE]
 .contact "\*[LOCATION]" ".github \*[SOCIAL_HANDLE]" ".linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
 .
 .coverstart
-I am a technology leader with
-.B
-15+ years
-.R 
-of experience and a strong background in 
-.B
-JavaScript
-.R and
-.B
-Node.js
-.R 
-development on 
-.B
-UNIX\[rg]
-.R 
-based systems. I have a proven track record of delivering 
+I am a technology leader with \fB15+ years\fR of experience and a strong background in \fBJavaScript\fR
+\fBNode.js\fR development on \fBUNIX\[rg]\fR based systems. I have a proven track record of delivering 
 high-quality solutions and overseeing complex system architectures.
 I combine strategic thinking with hands-on technical skills to solve business 
 problems. I am effective at building teams and leveraging emerging technologies 
@@ -80,7 +72,7 @@ within the JavaScript landscape to drive innovation.
 .skill Supported bug fixing in legacy \fBAngular\fR project.
 .skill Designed \fBRedux\fR + \fBSagas\fR architecture and migration process.
 .
-.company "Lendico Brasil / Provu" "Senior Frontend Engineer, São Paulo, BR" "2017"
+.company "Lendico Brasil / Provu" "Senior Frontend Engineer, São Paulo, BR" "2017 - 2018"
 .skill Designed and implemented \fBMultivariate\fR and \fBA/B testing\fR.
 .skill Improved site performance and size with \fBWebpack\fR optimizations.
 .skill Supported bug fixing in legacy \fBAngular\fR project.
@@ -93,16 +85,16 @@ within the JavaScript landscape to drive innovation.
 .skill Designed APIs, integration services, and complete client/server architecture.
 .skill Worked with \fBAngularJS\fR, \fBTypescript\fR, \fBWebpack\fR, \fBASP.NET MVC\fR, \fBWebForms\fR, \fBWeb API 2.0\fR, \fBSignalR\fR, \fBAutoFac\fR, \fBAzure\fR, \fBIonic\fR, \fBNodeJS\fR, and \fBGit\fR.
 .
-.company "Bancorbras" ".NET Web Developer, Brasília, BR" "2009 - 2010"
+.company "Bancorbras" "\&.NET Web Developer, Brasília, BR" "2009 - 2010"
 .skill Developed web applications for tourism, insurance, and financing management.
 .skill Worked on Reservas online, a rule-based hotel booking system with high demand.
 .skill Maintained a 3-tier \fBWebforms ASP.NET\fR application.
 .
-.company "Poliedro" ".NET Web Developer, Brasília, BR" "2008 - 2009"
+.company "Poliedro" "\&.NET Web Developer, Brasília, BR" "2008 - 2009"
 .skill Developed SGE, a \fBSOA\fR system for hydropower research and management.
 .skill Worked with \fBASP.NET Web Forms\fR, \fBVisual Basic.NET\fR, \fBWebServices\fR, \fBSource Safe\fR, \fBTeam Foundation\fR, \fBJavascript\fR, \fBUML\fR, and \fBRUP\fR.
 .
-.company "Cobra Tecnologia" ".NET Web Developer, Brasília, BR" "2007 - 2008"
+.company "Cobra Tecnologia" "\&.NET Web Developer, Brasília, BR" "2007 - 2008"
 .skill Developed and maintained tools for decision making, management, and billing for helpdesk centers.
 .skill Managed application server, intranet, and \fBMySQL\fR SGDB.
 .skill Worked with \fBASP.NET 2.0 (C#)\fR, Classical ASP (\fBVB6\fR), \fBjQuery\fR, and \fBExtJs\fR.
@@ -128,10 +120,7 @@ within the JavaScript landscape to drive innovation.
 .skill DEV216x: Developing Dynamic Web Applications Using Angular 2
 .skill Microsoft.NET Framework - Application Development Foundation
 .
+.br
 .section HONORS-AWARDS
 .
-.IP "  \(bu" 3
-\s(\n[sSection]Winner of
-.url "hackathon viva real 2015," https://medium.com/tech-grupozap/diario-dos-ganhadores-da-hackathon-da-vivareal-hot-leads-f17590ea03e9
-a real estate technology hackathon in Brazil promoted by Viva Real, a leading online real estate marketplace.
-.
+.skill \fBAwarded Winner of Hackathon Viva Real 2015\fR, a real estate technology hackathon in Brazil promoted by Viva Real, a leading online real estate marketplace. 

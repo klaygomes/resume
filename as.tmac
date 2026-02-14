@@ -1,0 +1,89 @@
+.\" Terminal
+.
+.setup
+..
+.
+.de heading
+\\$1
+.br
+.shift
+.  while (\\n[.$] > 0) \{\
+\\$1
+.   if (\\n[.$] > 1) \{,\}
+.   shift
+.  \}
+.sp 1
+..
+.
+.de email
+\\$1
+..
+.
+.de github
+github: \\$1 
+..
+.
+.de linkedin
+linkedin: \\$1
+..
+.
+.de contact
+.sp -\\n[.$]
+.DS R
+.  while (\\n[.$] > 0) \{\
+\\$1
+.   shift
+.  \}
+.sp 1
+.DE
+..
+.
+.de coverstart
+.sp 4
+.hy 0
+.ll -3
+.in 3
+.ti 4
+..
+.de coverend
+.in 0
+.ll
+.hy
+..
+.
+.
+.de section
+.rj
+.B
+\\$*
+\l'\n(.lu'
+.R
+.sp 1
+..
+.
+.de company
+.KS
+.sp 1
+\fB\\$1\fR
+.sp -1
+.rj
+\fB\\$3\fR
+\fI\\$2\fR
+.KE
+.sp
+..
+.
+.de skill
+.
+.in 3
+\\(bu \\$*
+.in
+..
+.
+.de BT 
+oi bt
+..
+.de PT
+oi pt
+..
+.
