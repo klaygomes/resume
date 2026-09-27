@@ -71,3 +71,7 @@ This will produce `cleiton-loiola.pdf` and `cleiton-loiola` files in the current
 ## License
 
 See [LICENSE](LICENSE) for details.
+
+---
+
+Made by Cleiton at [Esta couve flor](https://www.estacouveflor.com), a blog about the whole stack, from React on the screen down to the clock tree of an STM32.
