@@ -8,8 +8,8 @@
 .br
 .shift
 .  while (\\n[.$] > 0) \{\
-\\$1
-.   if (\\n[.$] > 1) \{,\}
+\\$1\c
+.   if (\\n[.$] > 1) \{\&\ |\ \c\}
 .   shift
 .  \}
 .sp 1
@@ -27,11 +27,17 @@ github: \\$1
 linkedin: \\$1
 ..
 .
+.de contact-item
+.ie d \\$1 .\\$1 \\$2
+.el \\$*
+.br
+..
+.
 .de contact
 .sp -\\n[.$]
 .DS R
 .  while (\\n[.$] > 0) \{\
-\\$1
+.    contact-item \\$1
 .   shift
 .  \}
 .sp 1

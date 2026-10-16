@@ -1,0 +1,37 @@
+{
+  "name": "cleiton",
+  "version": "1.0.4",
+  "description": "Text version of Cleiton Loiola' Resume",
+  "author": "Cleiton Loiola",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.cjs",
+  "bin": {
+    "cleiton": "index.cjs"
+  },
+  "files": [
+    "index.cjs",
+    "cleiton-loiola",
+    "cleiton-loiola.md"
+  ],
+  "scripts": {
+    "prepack": "make"
+  },
+  "keywords": [
+    "resume",
+    "tech-lead",
+    "react",
+    "developer",
+    "nodejs",
+    "gnu/linux",
+    "docker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klaygomes/resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klaygomes/resume/issues"
+  },
+  "homepage": "https://github.com/klaygomes/resume#readme"
+}

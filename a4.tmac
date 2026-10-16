@@ -41,7 +41,7 @@
 .nr FM 2c
 ..
 .de url
-.pdfhref W -D "\\$2" \m[subtle]\\$1\m[text]
+.pdfhref W -D "\\$2" -- "\\$1"
 ..
 .
 .de heading
@@ -81,14 +81,20 @@
 \m[subtle]\\$1\m[text]
 ..
 .
+.de contact-item
+.ie d \\$1 .\\$1 \\$2
+.el \\$*
+.br
+..
+.
 .de contact
 .sp -\\n[.$]
 .DS R
 .ps \\n[sDetails]
 \m[subtle]
 .  while (\\n[.$] > 0) \{\
-\\.sp -0.2
-\\$1
+.    sp -0.2
+.    contact-item \\$1
 .   shift
 .  \}
 \m[text]
@@ -113,6 +119,7 @@
 .
 .de section
 .LP
+.ne 4
 .B
 \s(\\n[sSection]\m[text]\\$*
 .sp -.5
@@ -123,11 +130,9 @@
 .
 .de company
 .sp 1
-\m[highlight]\fB\s(\\n[sHighlight]\\$1\fR \m[subtle]\fI\s(\\n[sSection]\\$2\m[text] 
-.DS R 
-.sp -2
-\fB\s(\\n[sSection]\\$3
-.DE
+.ta \\n[.l]u-\\n[.i]uR
+\m[highlight]\fB\s(\\n[sHighlight]\\$1\fR \m[subtle]\fI\s(\\n[sSection]\\$2\fR\m[text]\t\fB\s(\\n[sSection]\\$3\fR
+.br
 ..
 .
 .de skill

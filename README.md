@@ -60,13 +60,23 @@ make txt
 cat cleiton-loiola | less -R
 ```
 
+## Generating the markdown version
+
+To compile the resume to markdown (for agents and LLMs), run:
+
+```
+make md
+```
+
+`md.tmac` renders the same macros as markdown. `sed` then turns bold into `**` and groff hyphens into ASCII.
+
 You can use auto reload by typing
 
 ```
 ./watch
 ```
 
-This will produce `cleiton-loiola.pdf` and `cleiton-loiola` files in the current directory.
+`make` produces `cleiton-loiola.pdf`, `cleiton-loiola` and `cleiton-loiola.md` in the current directory.
 
 ## License
 

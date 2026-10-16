@@ -1,7 +1,8 @@
 .PHONY: clean build
 OUTPUT = cleiton-loiola
+ESC := $(shell printf '\033')
 
-build: $(OUTPUT) $(OUTPUT).pdf
+build: $(OUTPUT) $(OUTPUT).pdf $(OUTPUT).md
 
 # Create PDF File
 $(OUTPUT).pdf: resume.ms a4.tmac
@@ -25,8 +26,25 @@ $(OUTPUT): resume.ms as.tmac
 		-P-f		\
 		resume.ms > $(OUTPUT)
 
+# Create Markdown File
+$(OUTPUT).md: resume.ms md.tmac
+	@groff 			\
+		-Kutf8 		\
+		-M .	 	\
+		-mmd 		\
+		-ms			\
+		-Tutf8		\
+		resume.ms	\
+	| sed			\
+		-e 's/ $(ESC)\[22m/$(ESC)[22m /g' \
+		-e 's/$(ESC)\[1m/**/g'	\
+		-e 's/$(ESC)\[22m/**/g'	\
+		-e 's/‐/-/g'		\
+		> $(OUTPUT).md
+
 pdf: $(OUTPUT).pdf
 txt: $(OUTPUT)
+md: $(OUTPUT).md
 
 clean:
-	rm -f $(OUTPUT) $(OUTPUT).pdf
+	rm -f $(OUTPUT) $(OUTPUT).pdf $(OUTPUT).md
