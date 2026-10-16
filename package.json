@@ -1,6 +1,6 @@
 {
   "name": "cleiton",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Text version of Cleiton Loiola' Resume",
   "author": "Cleiton Loiola",
   "license": "ISC",
@@ -11,7 +11,8 @@
   },
   "files": [
     "index.cjs",
-    "cleiton-loiola"
+    "cleiton-loiola",
+    "cleiton-loiola.md"
   ],
   "scripts": {
     "prepack": "make"

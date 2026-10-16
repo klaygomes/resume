@@ -1,0 +1,88 @@
+.\" Markdown
+.
+.de setup
+.nr HM 0
+.pl 100000v
+.po 0
+.ll 2000n
+.na
+.hy 0
+.ss 12 0
+.em md-end
+..
+.
+.de md-end
+.br
+.pl \\n[nl]u
+..
+.
+.de md-gap
+.br
+.sp
+.ns
+..
+.
+.de heading
+# \\$1
+.md-gap
+.shift
+.  while \\n[.$] \{\
+\\$1\c
+.    if \\n[.$]>1 \& | \c
+.    shift
+.  \}
+.md-gap
+..
+.
+.de github
+- GitHub: [\\$1](https://github.com/\\$1)
+..
+.
+.de linkedin
+- LinkedIn: [\\$1](https://www.linkedin.com/in/\\$1)
+..
+.
+.de contact-item
+.ie d \\$1 .\\$1 \\$2
+.el - \\$*
+.br
+..
+.
+.de contact
+.  while \\n[.$] \{\
+.    contact-item \\$1
+.    shift
+.  \}
+.md-gap
+..
+.
+.de coverstart
+..
+.
+.de coverend
+.md-gap
+..
+.
+.de section
+.md-gap
+## \\$*
+.md-gap
+..
+.
+.de company
+.md-gap
+### \\$1
+.md-gap
+*\\$2* (\\$3)
+.md-gap
+..
+.
+.de skill
+- \\$*
+.br
+..
+.
+.de BT
+..
+.de PT
+..
