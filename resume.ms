@@ -4,19 +4,19 @@
 .ds TITLE Tech\\ Lead "Senior Software Engineer
 .ds KEYWORDS Tech Lead, Senior Software Engineer, JavaScript, Node.js, React, Next.js, TypeScript, Tailwind CSS, Ruby, PostgreSQL, Redis, AWS, Cloudflare, Angular, Azure DevOps, Docker, OpenShift, Kubernetes
 .ds SUBJECT Resume of Cleiton Loiola
-.ds SITE cleiton.se
+.ds SITE www.estacouveflor.com
 .ds EMAIL email@cleiton.dev
 .ds SOCIAL_HANDLE klaygomes
-.ds LOCATION Stockholmn, SE
+.ds LOCATION Stockholm, SE
 .
 .\" configure the document based on its output medium
 .setup
 .
 .heading "\*[AUTHOR]" \*[TITLE]
-.contact "\*[LOCATION]" ".github \*[SOCIAL_HANDLE]" ".linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
+.contact "\*[LOCATION]" "github \*[SOCIAL_HANDLE]" "linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
 .
 .coverstart
-I am a technology leader with \fB15+ years\fR of experience and a strong background in \fBJavaScript\fR
+I am a technology leader with \fB20+ years\fR of experience and a strong background in \fBJavaScript\fR
 \fBNode.js\fR development on \fBUNIX\[rg]\fR based systems. I have a proven track record of delivering 
 high-quality solutions and overseeing complex system architectures.
 I combine strategic thinking with hands-on technical skills to solve business 
@@ -25,87 +25,54 @@ within the JavaScript landscape to drive innovation.
 .coverend
 .
 .section WORK EXPERIENCE
-.company "Mentimeter" "Senior Software Engineer, Stockholm, SE" "Nov 2024 - Present"
+.company "Qred" "Tech Lead, Stockholm, SE" "Mar 2026 - Present"
+.skill \fBLead\fR a team of 9 engineers in Acquisition, covering loan and card onboarding, the Partner Portal, and partner APIs. Interview and hire engineers.
+.skill Coach developers and modernize development processes for the AI era: built \fBAI skills\fR, tooling, and \fBagentic workflows\fR for the team, shortening cycle time.
+.skill Built \fBQredibility\fR, an AI Slack assistant that classifies, routes, and files tickets for Customer Success requests. It targets \fB1 FTE of capacity recovered in 2026\fR from \fB376 requests in 10 weeks\fR (about \fB3 FTE\fR of senior time). CTO-sponsored.
+.skill Standardized \fBerror tracking\fR across six services with traceable error IDs, so helpdesk spots recurring errors quickly. Improved \fBobservability\fR and \fBtraceability\fR with structured logs, metrics, and PII masking.
+.skill Migrated onboarding, embedded, and card widget applications to the \fBunderwriting API\fR behind feature flags, then retired the legacy handlers.
+.skill Shipped partner-facing features: codified rejection reasons in the Partner Portal, HubSpot chat for logged-in partners, and a webhook delivery inspector.
 .
-.skill Contributed to the Organic Growth Team, focusing on user acquisition and engagement for a leading interactive presentation platform.
-.skill \fBLed\fR frontend architecture for major website redesign, improving performance, scalability, and maintainability.
-.skill Designed, implemented, and analyzed \fBA/B tests\fR and experiments to enhance user engagement and conversion rates.
-.skill Developed and maintained dynamic, responsive frontend features using \fBReact\fR, \fBNext.js\fR, \fBTypeScript\fR, and \fBTailwind CSS\fR.
-.skill Built and consumed backend services in \fBRuby\fR and \fBNode.js\fR, adapting to new technologies.
-.skill Designed and implemented scalable architecture for high performance and reliability.
-.skill Worked with \fBPostgreSQL\fR and \fBRedis\fR on \fBAWS\fR, managed via \fBCloudflare\fR.
-.skill Fostered knowledge sharing and continuous learning through technical discussions and code reviews.
+.company "Mentimeter" "Senior Software Engineer, Stockholm, SE" "Nov 2024 - Mar 2026"
+.skill Member of the Organic Growth Team, focused on user acquisition and engagement for a leading interactive presentation platform.
+.skill \fBLed\fR frontend architecture and delivered the redesigned website, improving \fBCore Web Vitals\fR by a \fBmedian of 30%\fR across all metrics and boosting lead generation.
+.skill Designed, ran, and analyzed \fBA/B tests\fR to improve engagement and conversion.
+.skill Built frontend features with \fBReact\fR, \fBNext.js\fR, \fBTypeScript\fR, and \fBTailwind CSS\fR, and backend services in \fBRuby\fR and \fBNode.js\fR on \fBPostgreSQL\fR and \fBRedis\fR, running on \fBAWS\fR behind \fBCloudflare\fR.
 .
 .company "SEB" "Solutions Developer, Stockholm, SE" "Nov 2023 - Nov 2024"
-.skill \fBLed\fR frontend development of end-user application integrated into SEB banking website, providing Pension and Insurance functionality.
-.skill Contributed to migration planning from \fBAngular\fR to \fBReact\fR.
-.skill Developed and enhanced responsive user interfaces using \fBJavaScript\fR, \fBTypeScript\fR, \fBReact\fR, and \fBAngular\fR.
-.skill Participated in full software development lifecycle within \fBAzure DevOps\fR, utilizing \fBCI/CD pipelines\fR.
-.skill Containerized applications using \fBDocker\fR for deployment on \fBOpenShift\fR and \fBKubernetes\fR.
-.skill Monitored application performance and diagnosed issues using \fBAppDynamics\fR and \fBSplunk\fR.
-.skill Engaged with \fB.NET\fR / \fB.NET Core\fR backend services to improve collaboration.
+.skill \fBLed\fR frontend development of the Pension and Insurance application inside the SEB banking website.
+.skill Helped plan the migration from \fBAngular\fR to \fBReact\fR and built responsive interfaces in both.
+.skill Shipped through \fBAzure DevOps\fR CI/CD, containerized with \fBDocker\fR on \fBOpenShift\fR and \fBKubernetes\fR.
 .
+.ne 5v
 .company "Klarna" "Senior Frontend Developer, Stockholm, SE" "Mar 2021 - Nov 2023"
-.skill Designed and developed robust, scalable frontend applications using \fBReact\fR and \fBRedux\fR.
-.skill Constructed and maintained \fBJenkins pipelines\fR to optimize software delivery.
-.skill Created and maintained internal tools to boost productivity and performance.
-.skill Authored comprehensive internal documentation for complex systems.
-.skill Supported onboarding and mentorship of developers.
-.skill Conducted performance tests and implemented improvements for software stability during peak seasons.
+.skill Built scalable frontend applications with \fBReact\fR and \fBRedux\fR.
+.skill Ran performance tests and shipped fixes that kept systems stable through peak shopping seasons.
+.skill Built \fBJenkins\fR pipelines and internal tools, wrote system documentation, and mentored new developers.
 .
-.company "Resultados Digitais" "Frontend Speciaskill, São Paulo, BR" "2019 - 2021"
-.skill \fBLed\fR the Front-end Platform Team, implementing architectural concepts to fragment the application monolith.
-.skill Head of development for front hub, an internal framework for micro-frontend independence.
-.skill Resolved common problems with building blocks: publishing, caching, localization, design system, QA, performance, authorization, rollout, feature flags, and interoperation between legacy and new micro frontends.
-.skill Developed reusable \fBReact\fR components, \fBWebpack\fR plugins, \fBJavaScript\fR libraries, documentation, automation scripts (\fBbash\fR), and \fBCircleCI\fR workflows.
+.company "Resultados Digitais" "Frontend Specialist, São Paulo, BR" "2019 - 2021"
+.skill \fBLed\fR the Frontend Platform Team that broke the application monolith into \fBmicro-frontends\fR.
+.skill Authored \fBFront Hub\fR, a complete micro-frontend framework and CLI, and drove its adoption across 5+ teams and almost \fB100 micro-frontends\fR. It is still in use, now powering \fB500+\fR.
+.skill Delivered its shared building blocks: publishing, caching, localization, design system, QA, performance, authorization, rollout, feature flags, and legacy interop.
 .
-.company "Lendico Brasil / Provu" "Lead Frontend Engineer, São Paulo, BR" "2018 - 2019"
-.skill Coordinated tasks and bug-fixing priorities based on scrum feedback.
-.skill Contributed to recruitment and interviewing efforts.
-.skill \fBLed\fR code reviews and managed source control merge operations.
-.skill Designed and implemented \fBMultivariate\fR and \fBA/B testing\fR.
-.skill Automated \fBCI\fR processes and improved site performance with \fBWebpack\fR.
-.skill Supported bug fixing in legacy \fBAngular\fR project.
-.skill Designed \fBRedux\fR + \fBSagas\fR architecture and migration process.
-.
-.company "Lendico Brasil / Provu" "Senior Frontend Engineer, São Paulo, BR" "2017 - 2018"
-.skill Designed and implemented \fBMultivariate\fR and \fBA/B testing\fR.
-.skill Improved site performance and size with \fBWebpack\fR optimizations.
-.skill Supported bug fixing in legacy \fBAngular\fR project.
-.skill Designed client-side architecture and migration process.
-.skill Worked extensively with \fBReact\fR, \fBReact Router(v4)\fR, \fBRedux\fR, and \fBRedux Sagas\fR.
+.company "Lendico Brasil / Provu" "Senior, then Lead Frontend Engineer, São Paulo, BR" "2017 - 2019"
+.skill Promoted to Lead in 2018: set priorities with the scrum team, led code reviews, and interviewed candidates.
+.skill Designed the client-side architecture on \fBReact\fR, \fBRedux\fR, and \fBRedux Saga\fR, and led the migration off legacy \fBAngular\fR.
+.skill Built \fBA/B\fR and \fBmultivariate testing\fR, and cut bundle size and load time with \fBWebpack\fR optimizations and CI automation.
 .
 .company "Anapro / Onway Tecnologia" "Full Stack Engineer, São Paulo, BR" "2010 - 2017"
-.skill Developed web applications for construction industry clients.
-.skill Interviewed clients and new developers, including technical assessments.
-.skill Designed APIs, integration services, and complete client/server architecture.
-.skill Worked with \fBAngularJS\fR, \fBTypescript\fR, \fBWebpack\fR, \fBASP.NET MVC\fR, \fBWebForms\fR, \fBWeb API 2.0\fR, \fBSignalR\fR, \fBAutoFac\fR, \fBAzure\fR, \fBIonic\fR, \fBNodeJS\fR, and \fBGit\fR.
+.skill Built web applications for construction industry clients, owning APIs, integrations, and client/server architecture.
+.skill Worked with \fBAngularJS\fR, \fBTypeScript\fR, \fBASP.NET MVC\fR, \fBWeb API\fR, \fBSignalR\fR, \fBAzure\fR, \fBIonic\fR, and \fBNode.js\fR.
 .
-.company "Bancorbras" "\&.NET Web Developer, Brasília, BR" "2009 - 2010"
-.skill Developed web applications for tourism, insurance, and financing management.
-.skill Worked on Reservas online, a rule-based hotel booking system with high demand.
-.skill Maintained a 3-tier \fBWebforms ASP.NET\fR application.
+.company "Earlier experience" ".NET Web Developer and IT Support, Brasília, BR" "2004 - 2010"
+.skill Built \fBASP.NET\fR applications at Poliedro, Bancorbras, and Cobra Tecnologia, after starting in IT support.
 .
-.company "Poliedro" "\&.NET Web Developer, Brasília, BR" "2008 - 2009"
-.skill Developed SGE, a \fBSOA\fR system for hydropower research and management.
-.skill Worked with \fBASP.NET Web Forms\fR, \fBVisual Basic.NET\fR, \fBWebServices\fR, \fBSource Safe\fR, \fBTeam Foundation\fR, \fBJavascript\fR, \fBUML\fR, and \fBRUP\fR.
-.
-.company "Cobra Tecnologia" "\&.NET Web Developer, Brasília, BR" "2007 - 2008"
-.skill Developed and maintained tools for decision making, management, and billing for helpdesk centers.
-.skill Managed application server, intranet, and \fBMySQL\fR SGDB.
-.skill Worked with \fBASP.NET 2.0 (C#)\fR, Classical ASP (\fBVB6\fR), \fBjQuery\fR, and \fBExtJs\fR.
-.
-.company "Cobra Tecnologia" "IT Support and Helpdesk Lvl 2, Brasília, BR" "2006 - 2007"
-.skill Provided \fBITIL\fR-guided support, resolved incidents, restored failed IT services, and managed problem lifecycle.
-.
-.company "Cobra Tecnologia" "IT Support and Helpdesk Lvl 1, Brasília, BR" "2004 - 2006"
-.skill Provided first-level IT support and helpdesk services.
-.
-.sp 2 \" Extra space before next section
 .
 .section SKILLS
 .
-.skill \fBTechnical:\fR JavaScript (NodeJS/React), Docker, Kubernetes, Git/GitHub, Rust, C, GNU/Linux.
+.skill \fBTechnical:\fR JavaScript, TypeScript, Node.js, React, Next.js, Docker, Kubernetes, AWS, PostgreSQL, Git/GitHub, GNU/Linux.
+.skill \fBHobbies:\fR Rust, C, and embedded systems.
+.skill \fBSide projects:\fR wrote \fBHi New Scrap\fR, a Firefox userscript that alerted Orkut users to new messages, with \fB50,000+ users\fR and coverage in Superinteressante magazine. In 2010 wrote \fBCeifadeira Feliz\fR, an automation bot for the Orkut game Colheita Feliz, which passed \fB12,000+ registered users\fR.
 .skill \fBLanguages:\fR Portuguese - Native, English - Working proficiency.
 .
 .section CERTIFICATIONS
@@ -113,8 +80,6 @@ within the JavaScript landscape to drive innovation.
 .skill Ultimate Rust 2: Intermediate Concepts
 .skill Linear Algebra - Foundations to Frontiers
 .skill Creating A Chip-8 Emulator In C
-.skill DEV216x: Developing Dynamic Web Applications Using Angular 2
-.skill Microsoft.NET Framework - Application Development Foundation
 .
 .br
 .section HONORS-AWARDS
