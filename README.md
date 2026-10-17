@@ -70,6 +70,27 @@ make md
 
 `md.tmac` renders the same macros as markdown. `sed` then turns bold into `**` and groff hyphens into ASCII.
 
+## Generating the cover letter
+
+```
+make cover
+```
+
+This writes `cleiton-loiola-cover-letter.pdf`, which is not committed.
+
+## File layout
+
+```mermaid
+flowchart LR
+  R[resume.ms] --> P[profile.ms]
+  C[cover-letter.ms] --> P
+  A4[a4.tmac: PDF] --> CM[common.tmac]
+  AS[as.tmac: terminal] --> CM
+  MD[md.tmac: markdown] --> CM
+```
+
+`profile.ms` holds the name, contact details and header that both documents share. Each document sets `TITLE`, `KEYWORDS` and `SUBJECT`, then sources it. `common.tmac` holds the macros that are the same in every output format.
+
 You can use auto reload by typing
 
 ```
@@ -77,6 +98,10 @@ You can use auto reload by typing
 ```
 
 `make` produces `cleiton-loiola.pdf`, `cleiton-loiola` and `cleiton-loiola.md` in the current directory.
+
+## Publishing
+
+Bump `version` in `package.json` and push to `main`. The `publish` workflow publishes the new version to npm and redeploys [cleiton.se](https://cleiton.se). Setup is described in the site's [deployment docs](https://github.com/klaygomes/cleiton.se/blob/main/docs/deployment.md#resume-updates).
 
 ## License
 

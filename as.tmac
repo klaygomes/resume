@@ -1,6 +1,8 @@
 .\" Terminal
 .
-.setup
+.mso common.tmac
+.
+.de setup
 ..
 .
 .de heading
@@ -15,22 +17,12 @@
 .sp 1
 ..
 .
-.de email
-\\$1
-..
-.
 .de github
 github: \\$1 
 ..
 .
 .de linkedin
 linkedin: \\$1
-..
-.
-.de contact-item
-.ie d \\$1 .\\$1 \\$2
-.el \\$*
-.br
 ..
 .
 .de contact
@@ -84,10 +76,5 @@ linkedin: \\$1
 .in 3
 \\(bu \\$*
 .in
-..
-.
-.de BT 
-..
-.de PT
 ..
 .
