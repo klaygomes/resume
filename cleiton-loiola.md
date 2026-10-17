@@ -18,7 +18,7 @@ I am a technology leader with **20+ years** of experience and a strong backgroun
 
 - **Tech Lead** of the Acquisition team of 6 engineers, alongside a PM and an engineering manager. The team is the **hub for client acquisition**, working across **onboarding**, **marketing**, and **partnerships**, and owns loan and card onboarding and partner integrations. Interview and hire engineers.
 - Coach developers and modernize development processes for the AI era: built **AI skills**, tooling, and **agentic workflows** for the team, shortening cycle time.
-- Built **Qredibility**, an AI Slack assistant that classifies, routes, and files tickets for Customer Success requests. It targets **1 FTE of capacity recovered in 2026** from **376 requests in 10 weeks** (about **3 FTE** of senior time). CTO-sponsored.
+- Built **Qredibility**, a multi-agent AI Slack assistant, extensible from day one, so it keeps growing: **six internal teams** use it, two with their own extensions. For Customer Success it classifies, routes, and files tickets, and targets **1 FTE of capacity recovered in 2026** from **376 requests in 10 weeks** (about **3 FTE** of senior time). CTO-sponsored.
 - Standardized **error tracking** across six services with traceable error IDs, so helpdesk spots recurring errors quickly. Improved **observability** and **traceability** with structured logs, metrics, and PII masking.
 - Lead the **migration of complex, distributed legacy systems**, with **incremental rollouts**, **fallbacks**, and **monitoring** to de-risk every step.
 

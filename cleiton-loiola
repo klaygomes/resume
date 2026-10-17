@@ -34,37 +34,39 @@ Tech Lead | Senior Software Engineer          linkedin: klaygomes
    • Coach developers and modernize development processes for the
    AI  era:  built  [1mAI skills[22m, tooling, and [1magentic workflows [22mfor
    the team, shortening cycle time.
-   • Built [1mQredibility[22m, an AI Slack  assistant  that  classifies,
-   routes,  and  files  tickets for Customer Success requests. It
-   targets [1m1 FTE of capacity recovered in 2026 [22mfrom [1m376  requests[0m
-   [1min 10 weeks [22m(about [1m3 FTE [22mof senior time). CTO‐sponsored.
-   •  Standardized [1merror tracking [22macross six services with trace‐
-   able error IDs, so helpdesk spots  recurring  errors  quickly.
-   Improved  [1mobservability [22mand [1mtraceability [22mwith structured logs,
+   • Built [1mQredibility[22m, a multi‐agent AI Slack assistant,  exten‐
+   sible  from  day  one, so it keeps growing: [1msix internal teams[0m
+   use it, two with their own extensions. For Customer Success it
+   classifies, routes, and files tickets, and targets  [1m1  FTE  of[0m
+   [1mcapacity  recovered  in  2026  [22mfrom  [1m376  requests in 10 weeks[0m
+   (about [1m3 FTE [22mof senior time). CTO‐sponsored.
+   • Standardized [1merror tracking [22macross six services with  trace‐
+   able  error  IDs,  so helpdesk spots recurring errors quickly.
+   Improved [1mobservability [22mand [1mtraceability [22mwith structured  logs,
    metrics, and PII masking.
-   • Lead the [1mmigration of complex, distributed  legacy  systems[22m,
-   with  [1mincremental  rollouts[22m,  [1mfallbacks[22m, and [1mmonitoring [22mto de‐
+   •  Lead  the [1mmigration of complex, distributed legacy systems[22m,
+   with [1mincremental rollouts[22m, [1mfallbacks[22m, and  [1mmonitoring  [22mto  de‐
    risk every step.
 
 [1mMentimeter                                    Nov 2024 ‐ Mar 2026[0m
 [4mSenior[24m [4mSoftware[24m [4mEngineer,[24m [4mStockholm,[24m [4mSE[0m
 
-   • Member of the Organic Growth Team, focused on user  acquisi‐
-   tion  and  engagement  for  a leading interactive presentation
+   •  Member of the Organic Growth Team, focused on user acquisi‐
+   tion and engagement for  a  leading  interactive  presentation
    platform.
-   • [1mLed [22mfrontend architecture and delivered the redesigned  web‐
-   site,  improving [1mCore Web Vitals [22mby a [1mmedian of 30% [22macross all
+   •  [1mLed [22mfrontend architecture and delivered the redesigned web‐
+   site, improving [1mCore Web Vitals [22mby a [1mmedian of 30% [22macross  all
    metrics and boosting lead generation.
-   • Designed, ran, and analyzed [1mA/B tests [22mto improve  engagement
-   and conversion.
-   • Built frontend features with [1mReact[22m, [1mNext.js[22m, [1mTypeScript[22m, and
+   •  Designed, ran, and analyzed [1mA/B tests [22mto improve engagement
 
 
 
                                ‐2‐
 
 
-   [1mTailwind  CSS[22m,  and  backend  services  in [1mRuby [22mand [1mNode.js [22mon
+   and conversion.
+   • Built frontend features with [1mReact[22m, [1mNext.js[22m, [1mTypeScript[22m, and
+   [1mTailwind CSS[22m, and backend services  in  [1mRuby  [22mand  [1mNode.js  [22mon
    [1mPostgreSQL [22mand [1mRedis[22m, running on [1mAWS [22mbehind [1mCloudflare[22m.
 
 [1mSEB                                           Nov 2023 ‐ Nov 2024[0m
@@ -72,48 +74,48 @@ Tech Lead | Senior Software Engineer          linkedin: klaygomes
 
    • [1mLed [22mfrontend development of the Pension and Insurance appli‐
    cation inside the SEB banking website.
-   • Helped plan the migration from [1mAngular [22mto  [1mReact  [22mand  built
+   •  Helped  plan  the migration from [1mAngular [22mto [1mReact [22mand built
    responsive interfaces in both.
-   •  Shipped  through  [1mAzure  DevOps  [22mCI/CD,  containerized with
+   • Shipped  through  [1mAzure  DevOps  [22mCI/CD,  containerized  with
    [1mDocker [22mon [1mOpenShift [22mand [1mKubernetes[22m.
 
 [1mKlarna                                        Mar 2021 ‐ Nov 2023[0m
 [4mSenior[24m [4mFrontend[24m [4mDeveloper,[24m [4mStockholm,[24m [4mSE[0m
 
    • Built scalable frontend applications with [1mReact [22mand [1mRedux[22m.
-   • Ran performance tests and shipped fixes  that  kept  systems
+   •  Ran  performance  tests and shipped fixes that kept systems
    stable through peak shopping seasons.
-   •  Built  [1mJenkins  [22mpipelines  and internal tools, wrote system
+   • Built [1mJenkins [22mpipelines and  internal  tools,  wrote  system
    documentation, and mentored new developers.
 
 [1mResultados Digitais                                   2019 ‐ 2021[0m
 [4mFrontend[24m [4mSpecialist,[24m [4mSão[24m [4mPaulo,[24m [4mBR[0m
 
-   • [1mLed [22mthe Frontend Platform Team that  broke  the  application
+   •  [1mLed  [22mthe  Frontend Platform Team that broke the application
    monolith into [1mmicro‐frontends[22m.
-   •  Authored [1mFront Hub[22m, a complete micro‐frontend framework and
+   • Authored [1mFront Hub[22m, a complete micro‐frontend framework  and
    CLI, and drove its adoption across 5+ teams and almost [1m100 mi‐[0m
    [1mcro‐frontends[22m. It is still in use, now powering [1m500+[22m.
-   • Delivered its shared building blocks:  publishing,  caching,
-   localization,  design  system, QA, performance, authorization,
+   •  Delivered  its shared building blocks: publishing, caching,
+   localization, design system, QA,  performance,  authorization,
    rollout, feature flags, and legacy interop.
 
 [1mLendico Brasil / Provu                                2017 ‐ 2019[0m
 [4mSenior,[24m [4mthen[24m [4mLead[24m [4mFrontend[24m [4mEngineer,[24m [4mSão[24m [4mPaulo,[24m [4mBR[0m
 
-   • Promoted to Lead in 2018:  set  priorities  with  the  scrum
+   •  Promoted  to  Lead  in  2018: set priorities with the scrum
    team, led code reviews, and interviewed candidates.
-   •  Designed  the client‐side architecture on [1mReact[22m, [1mRedux[22m, and
+   • Designed the client‐side architecture on [1mReact[22m,  [1mRedux[22m,  and
    [1mRedux Saga[22m, and led the migration off legacy [1mAngular[22m.
-   • Built [1mA/B [22mand [1mmultivariate testing[22m, and cut bundle size  and
+   •  Built [1mA/B [22mand [1mmultivariate testing[22m, and cut bundle size and
    load time with [1mWebpack [22moptimizations and CI automation.
 
 [1mAnapro / Onway Tecnologia                             2010 ‐ 2017[0m
 [4mFull[24m [4mStack[24m [4mEngineer,[24m [4mSão[24m [4mPaulo,[24m [4mBR[0m
 
-   •  Built  web  applications for construction industry clients,
+   • Built web applications for  construction  industry  clients,
    owning APIs, integrations, and client/server architecture.
-   • Worked with [1mAngularJS[22m, [1mTypeScript[22m,  [1mASP.NET  MVC[22m,  [1mWeb  API[22m,
+   •  Worked  with  [1mAngularJS[22m,  [1mTypeScript[22m, [1mASP.NET MVC[22m, [1mWeb API[22m,
    [1mSignalR[22m, [1mAzure[22m, [1mIonic[22m, and [1mNode.js[22m.
 
 
@@ -124,20 +126,20 @@ Tech Lead | Senior Software Engineer          linkedin: klaygomes
 [1mEarlier experience                                    2004 ‐ 2010[0m
 [4m.NET[24m [4mWeb[24m [4mDeveloper[24m [4mand[24m [4mIT[24m [4mSupport,[24m [4mBrasília,[24m [4mBR[0m
 
-   •  Built [1mASP.NET [22mapplications at Poliedro, Bancorbras, and Co‐
+   • Built [1mASP.NET [22mapplications at Poliedro, Bancorbras, and  Co‐
    bra Tecnologia, after starting in IT support.
                                                            [1mSKILLS[0m
 [1m_________________________________________________________________[0m
 
-   • [1mTechnical: [22mJavaScript, TypeScript, Node.js, React,  Next.js,
+   •  [1mTechnical: [22mJavaScript, TypeScript, Node.js, React, Next.js,
    Docker, Kubernetes, AWS, PostgreSQL, Git/GitHub, GNU/Linux.
    • [1mHobbies: [22mRust, C, and embedded systems.
    • [1mSide projects: [22mwrote [1mHi New Scrap[22m, a Firefox userscript that
-   alerted  Orkut  users  to new messages, with [1m50,000+ users [22mand
-   coverage  in  Superinteressante  magazine.   In   2010   wrote
-   [1mCeifadeira  Feliz[22m,  an  automation bot for the Orkut game Col‐
+   alerted Orkut users to new messages, with  [1m50,000+  users  [22mand
+   coverage   in   Superinteressante   magazine.  In  2010  wrote
+   [1mCeifadeira Feliz[22m, an automation bot for the  Orkut  game  Col‐
    heita Feliz, which passed [1m12,000+ registered users[22m.
-   • [1mLanguages: [22mPortuguese ‐ Native,  English  ‐  Working  profi‐
+   •  [1mLanguages:  [22mPortuguese  ‐  Native, English ‐ Working profi‐
    ciency.
                                                    [1mCERTIFICATIONS[0m
 [1m_________________________________________________________________[0m
@@ -148,7 +150,7 @@ Tech Lead | Senior Software Engineer          linkedin: klaygomes
                                                     [1mHONORS‐AWARDS[0m
 [1m_________________________________________________________________[0m
 
-   •  [1mAwarded  Winner  of Hackathon Viva Real 2015[22m, a real estate
-   technology hackathon in Brazil promoted by Viva Real, a  lead‐
+   • [1mAwarded Winner of Hackathon Viva Real 2015[22m,  a  real  estate
+   technology  hackathon in Brazil promoted by Viva Real, a lead‐
    ing online real estate marketplace.
 
