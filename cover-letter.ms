@@ -6,9 +6,9 @@
 .so profile.ms
 .
 .coverstart
-I am a technology leader and system architect with 15+ years of experience building distributed systems and web platforms. I specialize in translating business goals into clean, composable architecture — leading teams that ship reliably while maintaining high engineering standards.
+I am a technology leader with \fB20+ years\fR of experience building web platforms and distributed systems. I turn business goals into clean, composable architecture, and I lead teams that ship reliably while keeping engineering standards high.
 .sp 1
-At \fBMentimeter\fR I led a full frontend re-architecture that delivered a \fB30% improvement in Core Web Vitals\fR. At \fBKlarna\fR I owned scalable React platforms and engineered Jenkins pipelines to optimize delivery under peak-season load. At \fBQred\fR (current) I drive technical strategy for the Acquisition team, building an internal RAG-based assistant on \fBAWS Bedrock\fR and standardizing observability practices across distributed services.
+At \fBQred\fR (current) I am Tech Lead of the Acquisition team, the hub for client acquisition across onboarding, marketing, and partnerships. I built \fBQredibility\fR, an AI Slack assistant that targets \fB1 FTE of capacity recovered in 2026\fR, and I lead the migration of complex, distributed legacy systems with incremental rollouts, fallbacks, and monitoring. At \fBMentimeter\fR I led the frontend architecture of the redesigned website, improving \fBCore Web Vitals by a median of 30%\fR. At \fBKlarna\fR I built scalable React applications and kept systems stable through peak shopping seasons.
 .sp 1
 I thrive in environments that value craftsmanship, autonomy, and data-driven iteration. I would welcome the opportunity to bring this experience to your team.
 .coverend
