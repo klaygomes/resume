@@ -8,7 +8,9 @@
 .coverstart
 I am a technology leader with \fB20+ years\fR of experience building web platforms and distributed systems. I turn business goals into clean, composable architecture, and I lead teams that ship reliably while keeping engineering standards high.
 .sp 1
-At \fBQred\fR (current) I am Tech Lead of the Acquisition team, the hub for client acquisition across onboarding, marketing, and partnerships. I built \fBQredibility\fR, an AI Slack assistant that targets \fB1 FTE of capacity recovered in 2026\fR, and I lead the migration of complex, distributed legacy systems with incremental rollouts, fallbacks, and monitoring. At \fBMentimeter\fR I led the frontend architecture of the redesigned website, improving \fBCore Web Vitals by a median of 30%\fR. At \fBKlarna\fR I built scalable React applications and kept systems stable through peak shopping seasons.
+At \fBResultados Digitais\fR in 2019, a monolithic architecture took 30 to 40 minutes to merge and deploy each approved pull request, which bottlenecked feature delivery. I proposed and architected the move to \fBmicro-frontends\fR, and built \fBFront Hub\fR, the framework behind the migration, as its primary author, implementer, and product designer. It removed the deployment wait, is still in production today, and led directly to Klarna recruiting me in 2021.
 .sp 1
-I thrive in environments that value craftsmanship, autonomy, and data-driven iteration. I would welcome the opportunity to bring this experience to your team.
+As Tech Lead at \fBQred\fR, I architected and built \fBQredibility\fR, a multi-agent bot, from the ground up. It is designed for extensibility and is now used by \fBsix internal teams\fR, with dedicated extensions for two of them to fit their workflows.
+.sp 1
+I have delivered other initiatives I am proud of and would welcome the chance to discuss them. I thrive in environments that value craftsmanship, autonomy, and data-driven iteration.
 .coverend
