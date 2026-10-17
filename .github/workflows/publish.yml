@@ -39,7 +39,7 @@ jobs:
           echo "published=true" >> "$GITHUB_OUTPUT"
 
       - name: Deploy cleiton.se
-        if: steps.publish.outputs.published == 'true'
+        if: steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
           VERSION: ${{ steps.publish.outputs.version }}
