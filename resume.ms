@@ -18,7 +18,7 @@ within the JavaScript landscape to drive innovation.
 .company "Qred" "Tech Lead, Stockholm, SE" "Mar 2026 - Present"
 .skill \fBTech Lead\fR of the Acquisition team of 6 engineers, alongside a PM and an engineering manager. The team is the \fBhub for client acquisition\fR, working across \fBonboarding\fR, \fBmarketing\fR, and \fBpartnerships\fR, and owns loan and card onboarding and partner integrations. Interview and hire engineers.
 .skill Coach developers and modernize development processes for the AI era: built \fBAI skills\fR, tooling, and \fBagentic workflows\fR for the team, shortening cycle time.
-.skill Built \fBQredibility\fR, a multi-agent AI Slack assistant, extensible from day one, so it keeps growing: \fBsix internal teams\fR use it, two with their own extensions. For Customer Success it classifies, routes, and files tickets, and targets \fB1 FTE of capacity recovered in 2026\fR from \fB376 requests in 10 weeks\fR (about \fB3 FTE\fR of senior time). CTO-sponsored.
+.skill Built \fBQredibility\fR, a multi-agent AI Slack assistant, extensible from day one, so it keeps growing: \fBsix internal teams\fR use it, two with their own extensions. For Customer Success it classifies, routes, and files tickets, and targets \fB1 FTE of capacity recovered in 2026\fR from \fB376 requests in 10 weeks\fR. CTO-sponsored.
 .skill Standardized \fBerror tracking\fR across six services with traceable error IDs, so helpdesk spots recurring errors quickly. Improved \fBobservability\fR and \fBtraceability\fR with structured logs, metrics, and PII masking.
 .skill Lead the \fBmigration of complex, distributed legacy systems\fR, with \fBincremental rollouts\fR, \fBfallbacks\fR, and \fBmonitoring\fR to de-risk every step.
 .
