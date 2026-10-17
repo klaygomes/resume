@@ -6,11 +6,11 @@
 .so profile.ms
 .
 .coverstart
-I am a technology leader with \fB20+ years\fR of experience building web platforms and distributed systems. I turn business goals into clean, composable architecture, and I lead teams that ship reliably while keeping engineering standards high.
+I am a tech lead with \fB20+ years\fR of experience building web platforms and distributed systems. I like simple, modular designs, and I help teams ship software they can trust.
 .sp 1
-At \fBResultados Digitais\fR in 2019, a monolithic architecture took 30 to 40 minutes to merge and deploy each approved pull request, which bottlenecked feature delivery. I proposed and architected the move to \fBmicro-frontends\fR, and built \fBFront Hub\fR, the framework behind the migration, as its primary author, implementer, and product designer. It removed the deployment wait, is still in production today, and led directly to Klarna recruiting me in 2021.
+At \fBResultados Digitais\fR in 2019, our monolith made every approved pull request take \fB30 to 40 minutes\fR to merge and deploy. I proposed moving to micro-frontends and built \fBFront Hub\fR, the framework that made the move possible. I designed it and wrote most of the code. Deploys went down to \fB3 minutes\fR. When I left, \fB99 micro-frontends\fR were running on it. Today there are \fBmore than 500\fR. This work is also why Klarna hired me in 2021.
 .sp 1
-As Tech Lead at \fBQred\fR, I architected and built \fBQredibility\fR, a multi-agent bot, from the ground up. It is designed for extensibility and is now used by \fBsix internal teams\fR, with dedicated extensions for two of them to fit their workflows.
+At \fBQred\fR, I designed and built \fBQredibility\fR, a multi-agent bot, from scratch. It is easy to extend, and \fBsix internal teams\fR use it today. Two of them have their own extensions for their workflows.
 .sp 1
-I have delivered other initiatives I am proud of and would welcome the chance to discuss them. I thrive in environments that value craftsmanship, autonomy, and data-driven iteration.
+I am proud of other projects too, and I am happy to talk about them.
 .coverend
