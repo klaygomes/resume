@@ -1,6 +1,7 @@
 .\" Inspired by https://resumeworded.com/big-data-resume-examples
 .\" Last access: 2025-02-13
 .\" Page Size: 8.27x11.69in ( 21x29.71 cm ) A4, portrait
+.mso common.tmac
 .nr sTitle 22 \" font size for the heading
 .nr sText 12  \" font size for the body text
 .nr sHighlight 13 \" font size for the heading
@@ -15,8 +16,8 @@
 .pdfview /PageMode /UseOutlines
 .pdfinfo /Title     \\*[TITLE]
 .pdfinfo /Author    \\*[AUTHOR]
-.pdfinfo /Subject   Resume of \\*[AUTHOR]
-.pdfinfo /Keywords  \\*[KEYWORDS]"
+.pdfinfo /Subject   \\*[SUBJECT]
+.pdfinfo /Keywords  \\*[KEYWORDS]
 .\" styling
 .defcolor highlight rgb #6c63fe
 .defcolor text rgb #2b2950
@@ -66,10 +67,6 @@
 \m[text]
 ..
 .
-.de email
-.url \\$1 mailto:\\$1
-..
-.
 .de github
 .url "Github: \\$1" https://github.com/\\$1 
 ..
@@ -79,12 +76,6 @@
 ..
 .de subtle
 \m[subtle]\\$1\m[text]
-..
-.
-.de contact-item
-.ie d \\$1 .\\$1 \\$2
-.el \\$*
-.br
 ..
 .
 .de contact
@@ -139,9 +130,5 @@
 .IP "  \m[highlight]\(bu" 3
 \s(\\n[sSection]\\$*
 .IP "" 0
-..
-.
-.de BT
-.
 ..
 .

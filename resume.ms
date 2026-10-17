@@ -1,19 +1,9 @@
 .\" metadata
 .
-.ds AUTHOR Cleiton Loiola
 .ds TITLE Tech\\ Lead "Senior Software Engineer
 .ds KEYWORDS Tech Lead, Senior Software Engineer, JavaScript, Node.js, React, Next.js, TypeScript, Tailwind CSS, Ruby, PostgreSQL, Redis, AWS, Cloudflare, Angular, Azure DevOps, Docker, OpenShift, Kubernetes
 .ds SUBJECT Resume of Cleiton Loiola
-.ds SITE www.estacouveflor.com
-.ds EMAIL email@cleiton.dev
-.ds SOCIAL_HANDLE klaygomes
-.ds LOCATION Stockholm, SE
-.
-.\" configure the document based on its output medium
-.setup
-.
-.heading "\*[AUTHOR]" \*[TITLE]
-.contact "\*[LOCATION]" "github \*[SOCIAL_HANDLE]" "linkedin \*[SOCIAL_HANDLE]" "\*[EMAIL]" "\*[SITE]"
+.so profile.ms
 .
 .coverstart
 I am a technology leader with \fB20+ years\fR of experience and a strong background in \fBJavaScript\fR
