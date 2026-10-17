@@ -26,12 +26,11 @@ within the JavaScript landscape to drive innovation.
 .
 .section WORK EXPERIENCE
 .company "Qred" "Tech Lead, Stockholm, SE" "Mar 2026 - Present"
-.skill \fBLead\fR a team of 9 engineers in Acquisition, covering loan and card onboarding, the Partner Portal, and partner APIs. Interview and hire engineers.
+.skill \fBTech Lead\fR of the Acquisition team of 6 engineers, alongside a PM and an engineering manager. The team is the \fBhub for client acquisition\fR, working across \fBonboarding\fR, \fBmarketing\fR, and \fBpartnerships\fR, and owns loan and card onboarding and partner integrations. Interview and hire engineers.
 .skill Coach developers and modernize development processes for the AI era: built \fBAI skills\fR, tooling, and \fBagentic workflows\fR for the team, shortening cycle time.
 .skill Built \fBQredibility\fR, an AI Slack assistant that classifies, routes, and files tickets for Customer Success requests. It targets \fB1 FTE of capacity recovered in 2026\fR from \fB376 requests in 10 weeks\fR (about \fB3 FTE\fR of senior time). CTO-sponsored.
 .skill Standardized \fBerror tracking\fR across six services with traceable error IDs, so helpdesk spots recurring errors quickly. Improved \fBobservability\fR and \fBtraceability\fR with structured logs, metrics, and PII masking.
-.skill Migrated onboarding, embedded, and card widget applications to the \fBunderwriting API\fR behind feature flags, then retired the legacy handlers.
-.skill Shipped partner-facing features: codified rejection reasons in the Partner Portal, HubSpot chat for logged-in partners, and a webhook delivery inspector.
+.skill Lead the \fBmigration of complex, distributed legacy systems\fR, with \fBincremental rollouts\fR, \fBfallbacks\fR, and \fBmonitoring\fR to de-risk every step.
 .
 .company "Mentimeter" "Senior Software Engineer, Stockholm, SE" "Nov 2024 - Mar 2026"
 .skill Member of the Organic Growth Team, focused on user acquisition and engagement for a leading interactive presentation platform.

@@ -78,6 +78,10 @@ You can use auto reload by typing
 
 `make` produces `cleiton-loiola.pdf`, `cleiton-loiola` and `cleiton-loiola.md` in the current directory.
 
+## Publishing
+
+Bump `version` in `package.json` and push to `main`. The `publish` workflow publishes the new version to npm and redeploys [cleiton.se](https://cleiton.se). Setup is described in the site's [deployment docs](https://github.com/klaygomes/cleiton.se/blob/main/docs/deployment.md#resume-updates).
+
 ## License
 
 See [LICENSE](LICENSE) for details.
